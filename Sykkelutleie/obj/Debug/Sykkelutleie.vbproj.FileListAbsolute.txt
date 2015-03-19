@@ -45,3 +45,17 @@ C:\Users\Olav\Documents\Stuff\# Drift\IDRI1005-A - Objektorientert programmering
 C:\Users\Olav\Documents\Stuff\# Drift\IDRI1005-A - Objektorientert programmering med systemarbeid\# Prosjekt\#Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.xml
 C:\Users\Olav\Documents\Stuff\# Drift\IDRI1005-A - Objektorientert programmering med systemarbeid\# Prosjekt\#Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.pdb
 >>>>>>> origin/master
+C:\Users\Oskar Møllersen\Documents\Sykkelutleie\Sykkelutleie\bin\Debug\Sykkelutleie.exe.config
+C:\Users\Oskar Møllersen\Documents\Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.exe
+C:\Users\Oskar Møllersen\Documents\Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.xml
+C:\Users\Oskar Møllersen\Documents\Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.pdb
+C:\Users\Oskar Møllersen\Documents\Sykkelutleie\Sykkelutleie\bin\Debug\Sykkelutleie.exe
+C:\Users\Oskar Møllersen\Documents\Sykkelutleie\Sykkelutleie\bin\Debug\Sykkelutleie.pdb
+C:\Users\Oskar Møllersen\Documents\Sykkelutleie\Sykkelutleie\bin\Debug\Sykkelutleie.xml
+C:\Users\Oskar Møllersen\Documents\Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.finnKunde.resources
+C:\Users\Oskar Møllersen\Documents\Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.finnSykkel.resources
+C:\Users\Oskar Møllersen\Documents\Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.finnUtstyr.resources
+C:\Users\Oskar Møllersen\Documents\Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.main.resources
+C:\Users\Oskar Møllersen\Documents\Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.login.resources
+C:\Users\Oskar Møllersen\Documents\Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.Resources.resources
+C:\Users\Oskar Møllersen\Documents\Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.vbproj.GenerateResource.Cache

@@ -45,8 +45,6 @@ C:\Users\Olav\Documents\Stuff\# Drift\IDRI1005-A - Objektorientert programmering
 C:\Users\Olav\Documents\Stuff\# Drift\IDRI1005-A - Objektorientert programmering med systemarbeid\# Prosjekt\#Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.xml
 C:\Users\Olav\Documents\Stuff\# Drift\IDRI1005-A - Objektorientert programmering med systemarbeid\# Prosjekt\#Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.pdb
 >>>>>>> origin/master
-<<<<<<< HEAD
-<<<<<<< HEAD
 C:\Users\Oskar Møllersen\Documents\Sykkelutleie\Sykkelutleie\bin\Debug\Sykkelutleie.exe.config
 C:\Users\Oskar Møllersen\Documents\Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.exe
 C:\Users\Oskar Møllersen\Documents\Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.xml
@@ -61,7 +59,6 @@ C:\Users\Oskar Møllersen\Documents\Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelut
 C:\Users\Oskar Møllersen\Documents\Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.login.resources
 C:\Users\Oskar Møllersen\Documents\Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.Resources.resources
 C:\Users\Oskar Møllersen\Documents\Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.vbproj.GenerateResource.Cache
-=======
 C:\Users\HK\Documents\Visual Studio 2013\Projects\sykkelutleieGithub\Sykkelutleie\Sykkelutleie\bin\Debug\Sykkelutleie.exe.config
 C:\Users\HK\Documents\Visual Studio 2013\Projects\sykkelutleieGithub\Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.exe
 C:\Users\HK\Documents\Visual Studio 2013\Projects\sykkelutleieGithub\Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.xml
@@ -77,9 +74,7 @@ C:\Users\HK\Documents\Visual Studio 2013\Projects\sykkelutleieGithub\Sykkelutlei
 C:\Users\HK\Documents\Visual Studio 2013\Projects\sykkelutleieGithub\Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.Resources.resources
 C:\Users\HK\Documents\Visual Studio 2013\Projects\sykkelutleieGithub\Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.vbproj.GenerateResource.Cache
 >>>>>>> 776bf28392afb31676963b3ba99b4a77a55d6739
-=======
 C:\Users\Olav\Documents\Visual Studio 2013\Projects\Sykkelutleie\Sykkelutleie\bin\Debug\Sykkelutleie.exe.config
 C:\Users\Olav\Documents\Visual Studio 2013\Projects\Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.exe
 C:\Users\Olav\Documents\Visual Studio 2013\Projects\Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.xml
 C:\Users\Olav\Documents\Visual Studio 2013\Projects\Sykkelutleie\Sykkelutleie\obj\Debug\Sykkelutleie.pdb
->>>>>>> origin/master

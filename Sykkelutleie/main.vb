@@ -1,3 +1,6 @@
-﻿Public Class main
+﻿Imports MySql.Data.MySqlClient
+Imports System.Data
+Public Class main
+
 End Class
 

@@ -59,32 +59,36 @@ Partial Class main
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.ComboBox6 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.tabAdmin = New System.Windows.Forms.TabPage()
         Me.adminTabInterface = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.TabPage3 = New System.Windows.Forms.TabPage()
-        Me.TabPage4 = New System.Windows.Forms.TabPage()
-        Me.TabPage5 = New System.Windows.Forms.TabPage()
+        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
         Me.ComboBox7 = New System.Windows.Forms.ComboBox()
+        Me.DataGridView2 = New System.Windows.Forms.DataGridView()
+        Me.knappEndreSykkel = New System.Windows.Forms.Button()
+        Me.knappSlettSykkel = New System.Windows.Forms.Button()
+        Me.knappLeggTil = New System.Windows.Forms.Button()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.CheckBox15 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox17 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox18 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox19 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox20 = New System.Windows.Forms.CheckBox()
+        Me.Label16 = New System.Windows.Forms.Label()
         Me.CheckBox12 = New System.Windows.Forms.CheckBox()
         Me.CheckBox13 = New System.Windows.Forms.CheckBox()
         Me.CheckBox14 = New System.Windows.Forms.CheckBox()
         Me.CheckBox11 = New System.Windows.Forms.CheckBox()
         Me.CheckBox10 = New System.Windows.Forms.CheckBox()
         Me.Label15 = New System.Windows.Forms.Label()
-        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
-        Me.knappLeggTil = New System.Windows.Forms.Button()
-        Me.knappSlettSykkel = New System.Windows.Forms.Button()
-        Me.knappEndreSykkel = New System.Windows.Forms.Button()
-        Me.DataGridView2 = New System.Windows.Forms.DataGridView()
         Me.Label14 = New System.Windows.Forms.Label()
-        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
-        Me.Label11 = New System.Windows.Forms.Label()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.GroupBox7 = New System.Windows.Forms.GroupBox()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
         Me.ComboBox8 = New System.Windows.Forms.ComboBox()
         Me.ComboBox9 = New System.Windows.Forms.ComboBox()
         Me.DataGridView4 = New System.Windows.Forms.DataGridView()
@@ -92,6 +96,10 @@ Partial Class main
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.GroupBox8 = New System.Windows.Forms.GroupBox()
+        Me.CheckBox26 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox25 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox24 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox23 = New System.Windows.Forms.CheckBox()
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         Me.CheckBox4 = New System.Windows.Forms.CheckBox()
@@ -104,20 +112,22 @@ Partial Class main
         Me.CheckBox21 = New System.Windows.Forms.CheckBox()
         Me.CheckBox22 = New System.Windows.Forms.CheckBox()
         Me.Label17 = New System.Windows.Forms.Label()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.Label20 = New System.Windows.Forms.Label()
-        Me.Label21 = New System.Windows.Forms.Label()
-        Me.CheckBox23 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox24 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox25 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox26 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox15 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox17 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox18 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox19 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox20 = New System.Windows.Forms.CheckBox()
-        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.TabPage5 = New System.Windows.Forms.TabPage()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.TabControl1 = New System.Windows.Forms.TabControl()
+        Me.TabPage6 = New System.Windows.Forms.TabPage()
+        Me.TabPage7 = New System.Windows.Forms.TabPage()
+        Me.DataGridView5 = New System.Windows.Forms.DataGridView()
+        Me.ComboBox10 = New System.Windows.Forms.ComboBox()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Button8 = New System.Windows.Forms.Button()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.tabUtInn.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.DataGridView3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -131,13 +141,17 @@ Partial Class main
         Me.tabAdmin.SuspendLayout()
         Me.adminTabInterface.SuspendLayout()
         Me.TabPage1.SuspendLayout()
-        Me.TabPage2.SuspendLayout()
-        Me.GroupBox5.SuspendLayout()
-        CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox6.SuspendLayout()
+        CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox5.SuspendLayout()
+        Me.TabPage2.SuspendLayout()
         Me.GroupBox7.SuspendLayout()
         CType(Me.DataGridView4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox8.SuspendLayout()
+        Me.TabControl1.SuspendLayout()
+        Me.TabPage6.SuspendLayout()
+        Me.TabPage7.SuspendLayout()
+        CType(Me.DataGridView5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'tabUtInn
@@ -297,9 +311,8 @@ Partial Class main
         '
         Me.tabOrdre.AccessibleDescription = "tabOrdre"
         Me.tabOrdre.AccessibleName = "tabOrdre"
+        Me.tabOrdre.Controls.Add(Me.TabControl1)
         Me.tabOrdre.Controls.Add(Me.Label13)
-        Me.tabOrdre.Controls.Add(Me.GroupBox4)
-        Me.tabOrdre.Controls.Add(Me.GroupBox3)
         Me.tabOrdre.Location = New System.Drawing.Point(4, 25)
         Me.tabOrdre.Margin = New System.Windows.Forms.Padding(4)
         Me.tabOrdre.Name = "tabOrdre"
@@ -322,7 +335,8 @@ Partial Class main
         '
         Me.GroupBox4.Controls.Add(Me.ListBox1)
         Me.GroupBox4.Controls.Add(Me.Label2)
-        Me.GroupBox4.Location = New System.Drawing.Point(287, 34)
+        Me.GroupBox4.Dock = System.Windows.Forms.DockStyle.Right
+        Me.GroupBox4.Location = New System.Drawing.Point(277, 3)
         Me.GroupBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox4.Name = "GroupBox4"
         Me.GroupBox4.Padding = New System.Windows.Forms.Padding(4)
@@ -334,16 +348,16 @@ Partial Class main
         '
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.ItemHeight = 16
-        Me.ListBox1.Location = New System.Drawing.Point(7, 70)
+        Me.ListBox1.Location = New System.Drawing.Point(7, 54)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(666, 532)
+        Me.ListBox1.Size = New System.Drawing.Size(666, 548)
         Me.ListBox1.TabIndex = 11
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(183, 29)
+        Me.Label2.Location = New System.Drawing.Point(254, 19)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(172, 31)
@@ -363,7 +377,8 @@ Partial Class main
         Me.GroupBox3.Controls.Add(Me.DateTimePicker2)
         Me.GroupBox3.Controls.Add(Me.Label6)
         Me.GroupBox3.Controls.Add(Me.Label5)
-        Me.GroupBox3.Location = New System.Drawing.Point(8, 34)
+        Me.GroupBox3.Dock = System.Windows.Forms.DockStyle.Left
+        Me.GroupBox3.Location = New System.Drawing.Point(3, 3)
         Me.GroupBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Padding = New System.Windows.Forms.Padding(4)
@@ -551,23 +566,6 @@ Partial Class main
         Me.ComboBox6.Size = New System.Drawing.Size(173, 24)
         Me.ComboBox6.TabIndex = 0
         '
-        'ComboBox1
-        '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(863, 0)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 24)
-        Me.ComboBox1.TabIndex = 20
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(748, 3)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(109, 17)
-        Me.Label1.TabIndex = 21
-        Me.Label1.Text = "Logget inn som:"
-        '
         'tabAdmin
         '
         Me.tabAdmin.AccessibleDescription = "tabAdmin"
@@ -610,48 +608,50 @@ Partial Class main
         Me.TabPage1.Text = "Sykler"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
-        'TabPage2
+        'GroupBox6
         '
-        Me.TabPage2.Controls.Add(Me.GroupBox7)
-        Me.TabPage2.Controls.Add(Me.GroupBox8)
-        Me.TabPage2.Controls.Add(Me.Label11)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(962, 629)
-        Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "Utstyr"
-        Me.TabPage2.UseVisualStyleBackColor = True
+        Me.GroupBox6.Controls.Add(Me.Label20)
+        Me.GroupBox6.Controls.Add(Me.Label21)
+        Me.GroupBox6.Controls.Add(Me.ComboBox5)
+        Me.GroupBox6.Controls.Add(Me.ComboBox7)
+        Me.GroupBox6.Controls.Add(Me.DataGridView2)
+        Me.GroupBox6.Controls.Add(Me.knappEndreSykkel)
+        Me.GroupBox6.Controls.Add(Me.knappSlettSykkel)
+        Me.GroupBox6.Controls.Add(Me.knappLeggTil)
+        Me.GroupBox6.Location = New System.Drawing.Point(193, 43)
+        Me.GroupBox6.Name = "GroupBox6"
+        Me.GroupBox6.Size = New System.Drawing.Size(763, 580)
+        Me.GroupBox6.TabIndex = 45
+        Me.GroupBox6.TabStop = False
         '
-        'TabPage3
+        'Label20
         '
-        Me.TabPage3.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage3.Size = New System.Drawing.Size(962, 629)
-        Me.TabPage3.TabIndex = 2
-        Me.TabPage3.Text = "Kunder"
-        Me.TabPage3.UseVisualStyleBackColor = True
+        Me.Label20.AutoSize = True
+        Me.Label20.Location = New System.Drawing.Point(414, 23)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(150, 17)
+        Me.Label20.TabIndex = 48
+        Me.Label20.Text = "Filtrer etter tilhørlighet:"
         '
-        'TabPage4
+        'Label21
         '
-        Me.TabPage4.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage4.Size = New System.Drawing.Size(962, 629)
-        Me.TabPage4.TabIndex = 3
-        Me.TabPage4.Text = "Ansatte"
-        Me.TabPage4.UseVisualStyleBackColor = True
+        Me.Label21.AutoSize = True
+        Me.Label21.Location = New System.Drawing.Point(6, 23)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(84, 17)
+        Me.Label21.TabIndex = 47
+        Me.Label21.Text = "Sorter etter:"
         '
-        'TabPage5
+        'ComboBox5
         '
-        Me.TabPage5.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage5.Name = "TabPage5"
-        Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage5.Size = New System.Drawing.Size(962, 629)
-        Me.TabPage5.TabIndex = 4
-        Me.TabPage5.Text = "Steder"
-        Me.TabPage5.UseVisualStyleBackColor = True
+        Me.ComboBox5.FormattingEnabled = True
+        Me.ComboBox5.Items.AddRange(New Object() {"Modellnavn ", "Rammenr", "Størrelse", "Farge"})
+        Me.ComboBox5.Location = New System.Drawing.Point(97, 20)
+        Me.ComboBox5.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox5.Name = "ComboBox5"
+        Me.ComboBox5.Size = New System.Drawing.Size(241, 24)
+        Me.ComboBox5.TabIndex = 42
+        Me.ComboBox5.Text = "Sorter "
         '
         'ComboBox7
         '
@@ -663,6 +663,45 @@ Partial Class main
         Me.ComboBox7.Size = New System.Drawing.Size(184, 24)
         Me.ComboBox7.TabIndex = 44
         Me.ComboBox7.Text = "Sted"
+        '
+        'DataGridView2
+        '
+        Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView2.Location = New System.Drawing.Point(7, 49)
+        Me.DataGridView2.Margin = New System.Windows.Forms.Padding(4)
+        Me.DataGridView2.Name = "DataGridView2"
+        Me.DataGridView2.Size = New System.Drawing.Size(749, 487)
+        Me.DataGridView2.TabIndex = 38
+        '
+        'knappEndreSykkel
+        '
+        Me.knappEndreSykkel.Location = New System.Drawing.Point(377, 545)
+        Me.knappEndreSykkel.Margin = New System.Windows.Forms.Padding(4)
+        Me.knappEndreSykkel.Name = "knappEndreSykkel"
+        Me.knappEndreSykkel.Size = New System.Drawing.Size(100, 28)
+        Me.knappEndreSykkel.TabIndex = 39
+        Me.knappEndreSykkel.Text = "Endre "
+        Me.knappEndreSykkel.UseVisualStyleBackColor = True
+        '
+        'knappSlettSykkel
+        '
+        Me.knappSlettSykkel.Location = New System.Drawing.Point(485, 544)
+        Me.knappSlettSykkel.Margin = New System.Windows.Forms.Padding(4)
+        Me.knappSlettSykkel.Name = "knappSlettSykkel"
+        Me.knappSlettSykkel.Size = New System.Drawing.Size(100, 28)
+        Me.knappSlettSykkel.TabIndex = 40
+        Me.knappSlettSykkel.Text = "Slett"
+        Me.knappSlettSykkel.UseVisualStyleBackColor = True
+        '
+        'knappLeggTil
+        '
+        Me.knappLeggTil.Location = New System.Drawing.Point(230, 545)
+        Me.knappLeggTil.Margin = New System.Windows.Forms.Padding(4)
+        Me.knappLeggTil.Name = "knappLeggTil"
+        Me.knappLeggTil.Size = New System.Drawing.Size(139, 28)
+        Me.knappLeggTil.TabIndex = 41
+        Me.knappLeggTil.Text = "Legg til ny sykkel"
+        Me.knappLeggTil.UseVisualStyleBackColor = True
         '
         'GroupBox5
         '
@@ -685,6 +724,71 @@ Partial Class main
         Me.GroupBox5.Size = New System.Drawing.Size(179, 579)
         Me.GroupBox5.TabIndex = 43
         Me.GroupBox5.TabStop = False
+        '
+        'CheckBox15
+        '
+        Me.CheckBox15.AutoSize = True
+        Me.CheckBox15.Location = New System.Drawing.Point(12, 551)
+        Me.CheckBox15.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox15.Name = "CheckBox15"
+        Me.CheckBox15.Size = New System.Drawing.Size(110, 21)
+        Me.CheckBox15.TabIndex = 33
+        Me.CheckBox15.Text = "Ute av stand"
+        Me.CheckBox15.UseVisualStyleBackColor = True
+        '
+        'CheckBox17
+        '
+        Me.CheckBox17.AutoSize = True
+        Me.CheckBox17.Location = New System.Drawing.Point(12, 462)
+        Me.CheckBox17.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox17.Name = "CheckBox17"
+        Me.CheckBox17.Size = New System.Drawing.Size(83, 21)
+        Me.CheckBox17.TabIndex = 32
+        Me.CheckBox17.Text = "Feil sted"
+        Me.CheckBox17.UseVisualStyleBackColor = True
+        '
+        'CheckBox18
+        '
+        Me.CheckBox18.AutoSize = True
+        Me.CheckBox18.Location = New System.Drawing.Point(12, 522)
+        Me.CheckBox18.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox18.Name = "CheckBox18"
+        Me.CheckBox18.Size = New System.Drawing.Size(66, 21)
+        Me.CheckBox18.TabIndex = 31
+        Me.CheckBox18.Text = "Utleid"
+        Me.CheckBox18.UseVisualStyleBackColor = True
+        '
+        'CheckBox19
+        '
+        Me.CheckBox19.AutoSize = True
+        Me.CheckBox19.Location = New System.Drawing.Point(12, 491)
+        Me.CheckBox19.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox19.Name = "CheckBox19"
+        Me.CheckBox19.Size = New System.Drawing.Size(92, 21)
+        Me.CheckBox19.TabIndex = 30
+        Me.CheckBox19.Text = "Reservert"
+        Me.CheckBox19.UseVisualStyleBackColor = True
+        '
+        'CheckBox20
+        '
+        Me.CheckBox20.AutoSize = True
+        Me.CheckBox20.Location = New System.Drawing.Point(12, 433)
+        Me.CheckBox20.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox20.Name = "CheckBox20"
+        Me.CheckBox20.Size = New System.Drawing.Size(113, 21)
+        Me.CheckBox20.TabIndex = 29
+        Me.CheckBox20.Text = "Hjemmelager"
+        Me.CheckBox20.UseVisualStyleBackColor = True
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Location = New System.Drawing.Point(3, 412)
+        Me.Label16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(48, 17)
+        Me.Label16.TabIndex = 28
+        Me.Label16.Text = "Status"
         '
         'CheckBox12
         '
@@ -751,56 +855,6 @@ Partial Class main
         Me.Label15.TabIndex = 15
         Me.Label15.Text = "Type"
         '
-        'ComboBox5
-        '
-        Me.ComboBox5.FormattingEnabled = True
-        Me.ComboBox5.Items.AddRange(New Object() {"Modellnavn ", "Rammenr", "Størrelse", "Farge"})
-        Me.ComboBox5.Location = New System.Drawing.Point(97, 20)
-        Me.ComboBox5.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox5.Name = "ComboBox5"
-        Me.ComboBox5.Size = New System.Drawing.Size(241, 24)
-        Me.ComboBox5.TabIndex = 42
-        Me.ComboBox5.Text = "Sorter "
-        '
-        'knappLeggTil
-        '
-        Me.knappLeggTil.Location = New System.Drawing.Point(230, 545)
-        Me.knappLeggTil.Margin = New System.Windows.Forms.Padding(4)
-        Me.knappLeggTil.Name = "knappLeggTil"
-        Me.knappLeggTil.Size = New System.Drawing.Size(139, 28)
-        Me.knappLeggTil.TabIndex = 41
-        Me.knappLeggTil.Text = "Legg til ny sykkel"
-        Me.knappLeggTil.UseVisualStyleBackColor = True
-        '
-        'knappSlettSykkel
-        '
-        Me.knappSlettSykkel.Location = New System.Drawing.Point(485, 544)
-        Me.knappSlettSykkel.Margin = New System.Windows.Forms.Padding(4)
-        Me.knappSlettSykkel.Name = "knappSlettSykkel"
-        Me.knappSlettSykkel.Size = New System.Drawing.Size(100, 28)
-        Me.knappSlettSykkel.TabIndex = 40
-        Me.knappSlettSykkel.Text = "Slett"
-        Me.knappSlettSykkel.UseVisualStyleBackColor = True
-        '
-        'knappEndreSykkel
-        '
-        Me.knappEndreSykkel.Location = New System.Drawing.Point(377, 545)
-        Me.knappEndreSykkel.Margin = New System.Windows.Forms.Padding(4)
-        Me.knappEndreSykkel.Name = "knappEndreSykkel"
-        Me.knappEndreSykkel.Size = New System.Drawing.Size(100, 28)
-        Me.knappEndreSykkel.TabIndex = 39
-        Me.knappEndreSykkel.Text = "Endre "
-        Me.knappEndreSykkel.UseVisualStyleBackColor = True
-        '
-        'DataGridView2
-        '
-        Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView2.Location = New System.Drawing.Point(7, 49)
-        Me.DataGridView2.Margin = New System.Windows.Forms.Padding(4)
-        Me.DataGridView2.Name = "DataGridView2"
-        Me.DataGridView2.Size = New System.Drawing.Size(749, 487)
-        Me.DataGridView2.TabIndex = 38
-        '
         'Label14
         '
         Me.Label14.AutoSize = True
@@ -812,32 +866,18 @@ Partial Class main
         Me.Label14.TabIndex = 37
         Me.Label14.Text = "Sykler"
         '
-        'GroupBox6
+        'TabPage2
         '
-        Me.GroupBox6.Controls.Add(Me.Label20)
-        Me.GroupBox6.Controls.Add(Me.Label21)
-        Me.GroupBox6.Controls.Add(Me.ComboBox5)
-        Me.GroupBox6.Controls.Add(Me.ComboBox7)
-        Me.GroupBox6.Controls.Add(Me.DataGridView2)
-        Me.GroupBox6.Controls.Add(Me.knappEndreSykkel)
-        Me.GroupBox6.Controls.Add(Me.knappSlettSykkel)
-        Me.GroupBox6.Controls.Add(Me.knappLeggTil)
-        Me.GroupBox6.Location = New System.Drawing.Point(193, 43)
-        Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Size = New System.Drawing.Size(763, 580)
-        Me.GroupBox6.TabIndex = 45
-        Me.GroupBox6.TabStop = False
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(12, 8)
-        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(87, 31)
-        Me.Label11.TabIndex = 38
-        Me.Label11.Text = "Utstyr"
+        Me.TabPage2.Controls.Add(Me.GroupBox7)
+        Me.TabPage2.Controls.Add(Me.GroupBox8)
+        Me.TabPage2.Controls.Add(Me.Label11)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(962, 629)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.Text = "Utstyr"
+        Me.TabPage2.UseVisualStyleBackColor = True
         '
         'GroupBox7
         '
@@ -854,6 +894,24 @@ Partial Class main
         Me.GroupBox7.Size = New System.Drawing.Size(763, 580)
         Me.GroupBox7.TabIndex = 47
         Me.GroupBox7.TabStop = False
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Location = New System.Drawing.Point(415, 23)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(150, 17)
+        Me.Label19.TabIndex = 46
+        Me.Label19.Text = "Filtrer etter tilhørlighet:"
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Location = New System.Drawing.Point(7, 23)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(84, 17)
+        Me.Label18.TabIndex = 45
+        Me.Label18.Text = "Sorter etter:"
         '
         'ComboBox8
         '
@@ -941,6 +999,50 @@ Partial Class main
         Me.GroupBox8.Size = New System.Drawing.Size(179, 579)
         Me.GroupBox8.TabIndex = 46
         Me.GroupBox8.TabStop = False
+        '
+        'CheckBox26
+        '
+        Me.CheckBox26.AutoSize = True
+        Me.CheckBox26.Location = New System.Drawing.Point(16, 275)
+        Me.CheckBox26.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox26.Name = "CheckBox26"
+        Me.CheckBox26.Size = New System.Drawing.Size(78, 21)
+        Me.CheckBox26.TabIndex = 31
+        Me.CheckBox26.Text = "Verktøy"
+        Me.CheckBox26.UseVisualStyleBackColor = True
+        '
+        'CheckBox25
+        '
+        Me.CheckBox25.AutoSize = True
+        Me.CheckBox25.Location = New System.Drawing.Point(16, 246)
+        Me.CheckBox25.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox25.Name = "CheckBox25"
+        Me.CheckBox25.Size = New System.Drawing.Size(52, 21)
+        Me.CheckBox25.TabIndex = 30
+        Me.CheckBox25.Text = "Lys"
+        Me.CheckBox25.UseVisualStyleBackColor = True
+        '
+        'CheckBox24
+        '
+        Me.CheckBox24.AutoSize = True
+        Me.CheckBox24.Location = New System.Drawing.Point(16, 217)
+        Me.CheckBox24.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox24.Name = "CheckBox24"
+        Me.CheckBox24.Size = New System.Drawing.Size(53, 21)
+        Me.CheckBox24.TabIndex = 29
+        Me.CheckBox24.Text = "Lås"
+        Me.CheckBox24.UseVisualStyleBackColor = True
+        '
+        'CheckBox23
+        '
+        Me.CheckBox23.AutoSize = True
+        Me.CheckBox23.Location = New System.Drawing.Point(16, 188)
+        Me.CheckBox23.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox23.Name = "CheckBox23"
+        Me.CheckBox23.Size = New System.Drawing.Size(102, 21)
+        Me.CheckBox23.TabIndex = 28
+        Me.CheckBox23.Text = "Beskyttelse"
+        Me.CheckBox23.UseVisualStyleBackColor = True
         '
         'CheckBox2
         '
@@ -1072,150 +1174,165 @@ Partial Class main
         Me.Label17.TabIndex = 15
         Me.Label17.Text = "Type"
         '
-        'Label18
+        'Label11
         '
-        Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(7, 23)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(84, 17)
-        Me.Label18.TabIndex = 45
-        Me.Label18.Text = "Sorter etter:"
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(12, 8)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(87, 31)
+        Me.Label11.TabIndex = 38
+        Me.Label11.Text = "Utstyr"
         '
-        'Label19
+        'TabPage3
         '
-        Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(415, 23)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(150, 17)
-        Me.Label19.TabIndex = 46
-        Me.Label19.Text = "Filtrer etter tilhørlighet:"
+        Me.TabPage3.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage3.Size = New System.Drawing.Size(962, 629)
+        Me.TabPage3.TabIndex = 2
+        Me.TabPage3.Text = "Kunder"
+        Me.TabPage3.UseVisualStyleBackColor = True
         '
-        'Label20
+        'TabPage4
         '
-        Me.Label20.AutoSize = True
-        Me.Label20.Location = New System.Drawing.Point(414, 23)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(150, 17)
-        Me.Label20.TabIndex = 48
-        Me.Label20.Text = "Filtrer etter tilhørlighet:"
+        Me.TabPage4.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage4.Name = "TabPage4"
+        Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage4.Size = New System.Drawing.Size(962, 629)
+        Me.TabPage4.TabIndex = 3
+        Me.TabPage4.Text = "Ansatte"
+        Me.TabPage4.UseVisualStyleBackColor = True
         '
-        'Label21
+        'TabPage5
         '
-        Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(6, 23)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(84, 17)
-        Me.Label21.TabIndex = 47
-        Me.Label21.Text = "Sorter etter:"
+        Me.TabPage5.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage5.Name = "TabPage5"
+        Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage5.Size = New System.Drawing.Size(962, 629)
+        Me.TabPage5.TabIndex = 4
+        Me.TabPage5.Text = "Steder"
+        Me.TabPage5.UseVisualStyleBackColor = True
         '
-        'CheckBox23
+        'ComboBox1
         '
-        Me.CheckBox23.AutoSize = True
-        Me.CheckBox23.Location = New System.Drawing.Point(16, 188)
-        Me.CheckBox23.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox23.Name = "CheckBox23"
-        Me.CheckBox23.Size = New System.Drawing.Size(102, 21)
-        Me.CheckBox23.TabIndex = 28
-        Me.CheckBox23.Text = "Beskyttelse"
-        Me.CheckBox23.UseVisualStyleBackColor = True
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(863, 0)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(121, 24)
+        Me.ComboBox1.TabIndex = 20
         '
-        'CheckBox24
+        'Label1
         '
-        Me.CheckBox24.AutoSize = True
-        Me.CheckBox24.Location = New System.Drawing.Point(16, 217)
-        Me.CheckBox24.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox24.Name = "CheckBox24"
-        Me.CheckBox24.Size = New System.Drawing.Size(53, 21)
-        Me.CheckBox24.TabIndex = 29
-        Me.CheckBox24.Text = "Lås"
-        Me.CheckBox24.UseVisualStyleBackColor = True
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(748, 3)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(109, 17)
+        Me.Label1.TabIndex = 21
+        Me.Label1.Text = "Logget inn som:"
         '
-        'CheckBox25
+        'TabControl1
         '
-        Me.CheckBox25.AutoSize = True
-        Me.CheckBox25.Location = New System.Drawing.Point(16, 246)
-        Me.CheckBox25.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox25.Name = "CheckBox25"
-        Me.CheckBox25.Size = New System.Drawing.Size(52, 21)
-        Me.CheckBox25.TabIndex = 30
-        Me.CheckBox25.Text = "Lys"
-        Me.CheckBox25.UseVisualStyleBackColor = True
+        Me.TabControl1.Controls.Add(Me.TabPage6)
+        Me.TabControl1.Controls.Add(Me.TabPage7)
+        Me.TabControl1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TabControl1.Location = New System.Drawing.Point(4, 4)
+        Me.TabControl1.Name = "TabControl1"
+        Me.TabControl1.SelectedIndex = 0
+        Me.TabControl1.Size = New System.Drawing.Size(968, 656)
+        Me.TabControl1.TabIndex = 20
         '
-        'CheckBox26
+        'TabPage6
         '
-        Me.CheckBox26.AutoSize = True
-        Me.CheckBox26.Location = New System.Drawing.Point(16, 275)
-        Me.CheckBox26.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox26.Name = "CheckBox26"
-        Me.CheckBox26.Size = New System.Drawing.Size(78, 21)
-        Me.CheckBox26.TabIndex = 31
-        Me.CheckBox26.Text = "Verktøy"
-        Me.CheckBox26.UseVisualStyleBackColor = True
+        Me.TabPage6.Controls.Add(Me.GroupBox4)
+        Me.TabPage6.Controls.Add(Me.GroupBox3)
+        Me.TabPage6.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage6.Name = "TabPage6"
+        Me.TabPage6.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage6.Size = New System.Drawing.Size(960, 627)
+        Me.TabPage6.TabIndex = 0
+        Me.TabPage6.Text = "Ny"
+        Me.TabPage6.UseVisualStyleBackColor = True
         '
-        'CheckBox15
+        'TabPage7
         '
-        Me.CheckBox15.AutoSize = True
-        Me.CheckBox15.Location = New System.Drawing.Point(12, 551)
-        Me.CheckBox15.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox15.Name = "CheckBox15"
-        Me.CheckBox15.Size = New System.Drawing.Size(110, 21)
-        Me.CheckBox15.TabIndex = 33
-        Me.CheckBox15.Text = "Ute av stand"
-        Me.CheckBox15.UseVisualStyleBackColor = True
+        Me.TabPage7.BackColor = System.Drawing.Color.Transparent
+        Me.TabPage7.Controls.Add(Me.TextBox1)
+        Me.TabPage7.Controls.Add(Me.Label23)
+        Me.TabPage7.Controls.Add(Me.Button9)
+        Me.TabPage7.Controls.Add(Me.Button8)
+        Me.TabPage7.Controls.Add(Me.Label22)
+        Me.TabPage7.Controls.Add(Me.ComboBox10)
+        Me.TabPage7.Controls.Add(Me.DataGridView5)
+        Me.TabPage7.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage7.Name = "TabPage7"
+        Me.TabPage7.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage7.Size = New System.Drawing.Size(960, 627)
+        Me.TabPage7.TabIndex = 1
+        Me.TabPage7.Text = "Ordreoversikt"
         '
-        'CheckBox17
+        'DataGridView5
         '
-        Me.CheckBox17.AutoSize = True
-        Me.CheckBox17.Location = New System.Drawing.Point(12, 462)
-        Me.CheckBox17.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox17.Name = "CheckBox17"
-        Me.CheckBox17.Size = New System.Drawing.Size(83, 21)
-        Me.CheckBox17.TabIndex = 32
-        Me.CheckBox17.Text = "Feil sted"
-        Me.CheckBox17.UseVisualStyleBackColor = True
+        Me.DataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView5.Location = New System.Drawing.Point(221, 36)
+        Me.DataGridView5.Name = "DataGridView5"
+        Me.DataGridView5.RowTemplate.Height = 24
+        Me.DataGridView5.Size = New System.Drawing.Size(736, 592)
+        Me.DataGridView5.TabIndex = 3
         '
-        'CheckBox18
+        'ComboBox10
         '
-        Me.CheckBox18.AutoSize = True
-        Me.CheckBox18.Location = New System.Drawing.Point(12, 522)
-        Me.CheckBox18.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox18.Name = "CheckBox18"
-        Me.CheckBox18.Size = New System.Drawing.Size(66, 21)
-        Me.CheckBox18.TabIndex = 31
-        Me.CheckBox18.Text = "Utleid"
-        Me.CheckBox18.UseVisualStyleBackColor = True
+        Me.ComboBox10.FormattingEnabled = True
+        Me.ComboBox10.Items.AddRange(New Object() {"Alle", "Bestilt, ikke utlevert", "Utlevert, ikke innlevert", "Innlevert og ferdig"})
+        Me.ComboBox10.Location = New System.Drawing.Point(771, 6)
+        Me.ComboBox10.Name = "ComboBox10"
+        Me.ComboBox10.Size = New System.Drawing.Size(183, 24)
+        Me.ComboBox10.TabIndex = 4
         '
-        'CheckBox19
+        'Label22
         '
-        Me.CheckBox19.AutoSize = True
-        Me.CheckBox19.Location = New System.Drawing.Point(12, 491)
-        Me.CheckBox19.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox19.Name = "CheckBox19"
-        Me.CheckBox19.Size = New System.Drawing.Size(92, 21)
-        Me.CheckBox19.TabIndex = 30
-        Me.CheckBox19.Text = "Reservert"
-        Me.CheckBox19.UseVisualStyleBackColor = True
+        Me.Label22.AutoSize = True
+        Me.Label22.Location = New System.Drawing.Point(736, 13)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(27, 17)
+        Me.Label22.TabIndex = 5
+        Me.Label22.Text = "Vis"
         '
-        'CheckBox20
+        'Button8
         '
-        Me.CheckBox20.AutoSize = True
-        Me.CheckBox20.Location = New System.Drawing.Point(12, 433)
-        Me.CheckBox20.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox20.Name = "CheckBox20"
-        Me.CheckBox20.Size = New System.Drawing.Size(113, 21)
-        Me.CheckBox20.TabIndex = 29
-        Me.CheckBox20.Text = "Hjemmelager"
-        Me.CheckBox20.UseVisualStyleBackColor = True
+        Me.Button8.Location = New System.Drawing.Point(565, 8)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(75, 23)
+        Me.Button8.TabIndex = 6
+        Me.Button8.Text = "Endre"
+        Me.Button8.UseVisualStyleBackColor = True
         '
-        'Label16
+        'Button9
         '
-        Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(3, 412)
-        Me.Label16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(48, 17)
-        Me.Label16.TabIndex = 28
-        Me.Label16.Text = "Status"
+        Me.Button9.BackColor = System.Drawing.Color.FromArgb(CType(CType(233, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(157, Byte), Integer))
+        Me.Button9.Location = New System.Drawing.Point(655, 8)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(75, 23)
+        Me.Button9.TabIndex = 7
+        Me.Button9.Text = "Slett"
+        Me.Button9.UseVisualStyleBackColor = False
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Location = New System.Drawing.Point(218, 9)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(104, 17)
+        Me.Label23.TabIndex = 8
+        Me.Label23.Text = "Søk etter navn:"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(329, 8)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(170, 22)
+        Me.TextBox1.TabIndex = 9
         '
         'main
         '
@@ -1248,18 +1365,23 @@ Partial Class main
         Me.adminTabInterface.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()
-        Me.TabPage2.ResumeLayout(False)
-        Me.TabPage2.PerformLayout()
-        Me.GroupBox5.ResumeLayout(False)
-        Me.GroupBox5.PerformLayout()
-        CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox6.ResumeLayout(False)
         Me.GroupBox6.PerformLayout()
+        CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox5.ResumeLayout(False)
+        Me.GroupBox5.PerformLayout()
+        Me.TabPage2.ResumeLayout(False)
+        Me.TabPage2.PerformLayout()
         Me.GroupBox7.ResumeLayout(False)
         Me.GroupBox7.PerformLayout()
         CType(Me.DataGridView4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox8.ResumeLayout(False)
         Me.GroupBox8.PerformLayout()
+        Me.TabControl1.ResumeLayout(False)
+        Me.TabPage6.ResumeLayout(False)
+        Me.TabPage7.ResumeLayout(False)
+        Me.TabPage7.PerformLayout()
+        CType(Me.DataGridView5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1360,5 +1482,15 @@ Partial Class main
     Friend WithEvents CheckBox25 As System.Windows.Forms.CheckBox
     Friend WithEvents CheckBox24 As System.Windows.Forms.CheckBox
     Friend WithEvents CheckBox23 As System.Windows.Forms.CheckBox
+    Friend WithEvents TabControl1 As System.Windows.Forms.TabControl
+    Friend WithEvents TabPage6 As System.Windows.Forms.TabPage
+    Friend WithEvents TabPage7 As System.Windows.Forms.TabPage
+    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents Label23 As System.Windows.Forms.Label
+    Friend WithEvents Button9 As System.Windows.Forms.Button
+    Friend WithEvents Button8 As System.Windows.Forms.Button
+    Friend WithEvents Label22 As System.Windows.Forms.Label
+    Friend WithEvents ComboBox10 As System.Windows.Forms.ComboBox
+    Friend WithEvents DataGridView5 As System.Windows.Forms.DataGridView
 
 End Class

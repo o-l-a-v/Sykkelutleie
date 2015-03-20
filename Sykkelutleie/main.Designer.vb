@@ -114,6 +114,7 @@ Partial Class main
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
+<<<<<<< HEAD
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Button10 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
@@ -131,6 +132,12 @@ Partial Class main
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox9 = New System.Windows.Forms.GroupBox()
+=======
+        Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.TabPage5 = New System.Windows.Forms.TabPage()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+>>>>>>> origin/master
         Me.tabUtInn.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.DataGridView3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -166,7 +173,11 @@ Partial Class main
         Me.tabUtInn.Controls.Add(Me.GroupBox1)
         Me.tabUtInn.Location = New System.Drawing.Point(4, 22)
         Me.tabUtInn.Name = "tabUtInn"
+<<<<<<< HEAD
         Me.tabUtInn.Padding = New System.Windows.Forms.Padding(3)
+=======
+        Me.tabUtInn.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
+>>>>>>> origin/master
         Me.tabUtInn.Size = New System.Drawing.Size(730, 537)
         Me.tabUtInn.TabIndex = 2
         Me.tabUtInn.Text = "Ut-/innlevering"
@@ -184,9 +195,15 @@ Partial Class main
         Me.GroupBox2.Controls.Add(Me.CheckBox1)
         Me.GroupBox2.Controls.Add(Me.CheckBox16)
         Me.GroupBox2.Location = New System.Drawing.Point(6, 17)
+<<<<<<< HEAD
         Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Padding = New System.Windows.Forms.Padding(2)
+=======
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+>>>>>>> origin/master
         Me.GroupBox2.Size = New System.Drawing.Size(306, 505)
         Me.GroupBox2.TabIndex = 21
         Me.GroupBox2.TabStop = False
@@ -239,7 +256,11 @@ Partial Class main
         '
         Me.ComboBox4.FormattingEnabled = True
         Me.ComboBox4.Location = New System.Drawing.Point(103, 243)
+<<<<<<< HEAD
         Me.ComboBox4.Margin = New System.Windows.Forms.Padding(2)
+=======
+        Me.ComboBox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+>>>>>>> origin/master
         Me.ComboBox4.Name = "ComboBox4"
         Me.ComboBox4.Size = New System.Drawing.Size(167, 21)
         Me.ComboBox4.TabIndex = 8
@@ -287,7 +308,11 @@ Partial Class main
         '
         Me.ListBox2.FormattingEnabled = True
         Me.ListBox2.Location = New System.Drawing.Point(5, 57)
+<<<<<<< HEAD
         Me.ListBox2.Margin = New System.Windows.Forms.Padding(2)
+=======
+        Me.ListBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+>>>>>>> origin/master
         Me.ListBox2.Name = "ListBox2"
         Me.ListBox2.Size = New System.Drawing.Size(389, 433)
         Me.ListBox2.TabIndex = 11
@@ -311,7 +336,11 @@ Partial Class main
         Me.tabOrdre.Controls.Add(Me.GroupBox3)
         Me.tabOrdre.Location = New System.Drawing.Point(4, 22)
         Me.tabOrdre.Name = "tabOrdre"
+<<<<<<< HEAD
         Me.tabOrdre.Padding = New System.Windows.Forms.Padding(3)
+=======
+        Me.tabOrdre.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
+>>>>>>> origin/master
         Me.tabOrdre.Size = New System.Drawing.Size(730, 537)
         Me.tabOrdre.TabIndex = 0
         Me.tabOrdre.Text = "Ordre"
@@ -339,7 +368,11 @@ Partial Class main
         '
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.Location = New System.Drawing.Point(5, 57)
+<<<<<<< HEAD
         Me.ListBox1.Margin = New System.Windows.Forms.Padding(2)
+=======
+        Me.ListBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+>>>>>>> origin/master
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.Size = New System.Drawing.Size(500, 433)
         Me.ListBox1.TabIndex = 11
@@ -378,7 +411,11 @@ Partial Class main
         Me.Button4.AccessibleDescription = "btnLeggTilKunde"
         Me.Button4.AccessibleName = "btnLeggTilKunde"
         Me.Button4.Location = New System.Drawing.Point(11, 186)
+<<<<<<< HEAD
         Me.Button4.Margin = New System.Windows.Forms.Padding(2)
+=======
+        Me.Button4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+>>>>>>> origin/master
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(182, 19)
         Me.Button4.TabIndex = 21
@@ -400,7 +437,11 @@ Partial Class main
         Me.Button3.AccessibleDescription = "btnLeggTilUtstyr"
         Me.Button3.AccessibleName = "btnLeggTilUtstyr"
         Me.Button3.Location = New System.Drawing.Point(12, 233)
+<<<<<<< HEAD
         Me.Button3.Margin = New System.Windows.Forms.Padding(2)
+=======
+        Me.Button3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+>>>>>>> origin/master
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(182, 19)
         Me.Button3.TabIndex = 20
@@ -412,7 +453,11 @@ Partial Class main
         Me.Button2.AccessibleDescription = "btnLeggTilSykkel"
         Me.Button2.AccessibleName = "btnLeggTilSykkel"
         Me.Button2.Location = New System.Drawing.Point(12, 210)
+<<<<<<< HEAD
         Me.Button2.Margin = New System.Windows.Forms.Padding(2)
+=======
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+>>>>>>> origin/master
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(182, 19)
         Me.Button2.TabIndex = 19
@@ -504,9 +549,15 @@ Partial Class main
         Me.tabRestock.Controls.Add(Me.Label10)
         Me.tabRestock.Controls.Add(Me.ComboBox6)
         Me.tabRestock.Location = New System.Drawing.Point(4, 22)
+<<<<<<< HEAD
         Me.tabRestock.Margin = New System.Windows.Forms.Padding(2)
         Me.tabRestock.Name = "tabRestock"
         Me.tabRestock.Padding = New System.Windows.Forms.Padding(2)
+=======
+        Me.tabRestock.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.tabRestock.Name = "tabRestock"
+        Me.tabRestock.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+>>>>>>> origin/master
         Me.tabRestock.Size = New System.Drawing.Size(730, 537)
         Me.tabRestock.TabIndex = 3
         Me.tabRestock.Text = "Restock"
@@ -517,7 +568,11 @@ Partial Class main
         Me.btnUtkjort.AccessibleDescription = "btnUtkjort"
         Me.btnUtkjort.AccessibleName = "btnUtkjort"
         Me.btnUtkjort.Location = New System.Drawing.Point(311, 489)
+<<<<<<< HEAD
         Me.btnUtkjort.Margin = New System.Windows.Forms.Padding(2)
+=======
+        Me.btnUtkjort.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+>>>>>>> origin/master
         Me.btnUtkjort.Name = "btnUtkjort"
         Me.btnUtkjort.Size = New System.Drawing.Size(124, 44)
         Me.btnUtkjort.TabIndex = 3
@@ -528,7 +583,11 @@ Partial Class main
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Location = New System.Drawing.Point(8, 56)
+<<<<<<< HEAD
         Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2)
+=======
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+>>>>>>> origin/master
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowTemplate.Height = 24
         Me.DataGridView1.Size = New System.Drawing.Size(718, 418)
@@ -548,7 +607,11 @@ Partial Class main
         '
         Me.ComboBox6.FormattingEnabled = True
         Me.ComboBox6.Location = New System.Drawing.Point(38, 27)
+<<<<<<< HEAD
         Me.ComboBox6.Margin = New System.Windows.Forms.Padding(2)
+=======
+        Me.ComboBox6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+>>>>>>> origin/master
         Me.ComboBox6.Name = "ComboBox6"
         Me.ComboBox6.Size = New System.Drawing.Size(131, 21)
         Me.ComboBox6.TabIndex = 0
@@ -559,9 +622,15 @@ Partial Class main
         Me.tabAdmin.AccessibleName = "tabAdmin"
         Me.tabAdmin.Controls.Add(Me.adminTabInterface)
         Me.tabAdmin.Location = New System.Drawing.Point(4, 22)
+<<<<<<< HEAD
         Me.tabAdmin.Margin = New System.Windows.Forms.Padding(2)
         Me.tabAdmin.Name = "tabAdmin"
         Me.tabAdmin.Padding = New System.Windows.Forms.Padding(2)
+=======
+        Me.tabAdmin.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.tabAdmin.Name = "tabAdmin"
+        Me.tabAdmin.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+>>>>>>> origin/master
         Me.tabAdmin.Size = New System.Drawing.Size(730, 537)
         Me.tabAdmin.TabIndex = 8
         Me.tabAdmin.Text = "Administrer"
@@ -578,7 +647,11 @@ Partial Class main
         Me.adminTabInterface.Controls.Add(Me.TabPage5)
         Me.adminTabInterface.Dock = System.Windows.Forms.DockStyle.Fill
         Me.adminTabInterface.Location = New System.Drawing.Point(2, 2)
+<<<<<<< HEAD
         Me.adminTabInterface.Margin = New System.Windows.Forms.Padding(2)
+=======
+        Me.adminTabInterface.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+>>>>>>> origin/master
         Me.adminTabInterface.Name = "adminTabInterface"
         Me.adminTabInterface.SelectedIndex = 0
         Me.adminTabInterface.Size = New System.Drawing.Size(726, 533)
@@ -590,9 +663,15 @@ Partial Class main
         Me.TabPage1.Controls.Add(Me.GroupBox5)
         Me.TabPage1.Controls.Add(Me.Label14)
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
+<<<<<<< HEAD
         Me.TabPage1.Margin = New System.Windows.Forms.Padding(2)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(2)
+=======
+        Me.TabPage1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TabPage1.Name = "TabPage1"
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+>>>>>>> origin/master
         Me.TabPage1.Size = New System.Drawing.Size(718, 507)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Sykler"
@@ -609,9 +688,15 @@ Partial Class main
         Me.GroupBox6.Controls.Add(Me.knappSlettSykkel)
         Me.GroupBox6.Controls.Add(Me.knappLeggTil)
         Me.GroupBox6.Location = New System.Drawing.Point(145, 35)
+<<<<<<< HEAD
         Me.GroupBox6.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox6.Name = "GroupBox6"
         Me.GroupBox6.Padding = New System.Windows.Forms.Padding(2)
+=======
+        Me.GroupBox6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox6.Name = "GroupBox6"
+        Me.GroupBox6.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+>>>>>>> origin/master
         Me.GroupBox6.Size = New System.Drawing.Size(572, 471)
         Me.GroupBox6.TabIndex = 45
         Me.GroupBox6.TabStop = False
@@ -845,10 +930,17 @@ Partial Class main
         Me.TabPage2.Controls.Add(Me.GroupBox8)
         Me.TabPage2.Controls.Add(Me.Label11)
         Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+<<<<<<< HEAD
         Me.TabPage2.Margin = New System.Windows.Forms.Padding(2)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(2)
         Me.TabPage2.Size = New System.Drawing.Size(718, 507)
+=======
+        Me.TabPage2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TabPage2.Size = New System.Drawing.Size(720, 509)
+>>>>>>> origin/master
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Utstyr"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -864,9 +956,15 @@ Partial Class main
         Me.GroupBox7.Controls.Add(Me.Button6)
         Me.GroupBox7.Controls.Add(Me.Button7)
         Me.GroupBox7.Location = New System.Drawing.Point(145, 35)
+<<<<<<< HEAD
         Me.GroupBox7.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox7.Name = "GroupBox7"
         Me.GroupBox7.Padding = New System.Windows.Forms.Padding(2)
+=======
+        Me.GroupBox7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox7.Name = "GroupBox7"
+        Me.GroupBox7.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+>>>>>>> origin/master
         Me.GroupBox7.Size = New System.Drawing.Size(572, 471)
         Me.GroupBox7.TabIndex = 47
         Me.GroupBox7.TabStop = False
@@ -1129,6 +1227,7 @@ Partial Class main
         Me.Label17.Text = "Type"
         '
         'Label11
+<<<<<<< HEAD
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1292,6 +1391,61 @@ Partial Class main
         '
         'Label1
         '
+=======
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(9, 6)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(69, 26)
+        Me.Label11.TabIndex = 38
+        Me.Label11.Text = "Utstyr"
+        '
+        'TabPage3
+        '
+        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TabPage3.Size = New System.Drawing.Size(720, 509)
+        Me.TabPage3.TabIndex = 2
+        Me.TabPage3.Text = "Kunder"
+        Me.TabPage3.UseVisualStyleBackColor = True
+        '
+        'TabPage4
+        '
+        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TabPage4.Name = "TabPage4"
+        Me.TabPage4.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TabPage4.Size = New System.Drawing.Size(720, 509)
+        Me.TabPage4.TabIndex = 3
+        Me.TabPage4.Text = "Ansatte"
+        Me.TabPage4.UseVisualStyleBackColor = True
+        '
+        'TabPage5
+        '
+        Me.TabPage5.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TabPage5.Name = "TabPage5"
+        Me.TabPage5.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TabPage5.Size = New System.Drawing.Size(720, 509)
+        Me.TabPage5.TabIndex = 4
+        Me.TabPage5.Text = "Steder"
+        Me.TabPage5.UseVisualStyleBackColor = True
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(647, 0)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(92, 21)
+        Me.ComboBox1.TabIndex = 20
+        '
+        'Label1
+        '
+>>>>>>> origin/master
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(561, 2)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
@@ -1299,6 +1453,7 @@ Partial Class main
         Me.Label1.Size = New System.Drawing.Size(82, 13)
         Me.Label1.TabIndex = 21
         Me.Label1.Text = "Logget inn som:"
+<<<<<<< HEAD
         '
         'GroupBox9
         '
@@ -1312,6 +1467,8 @@ Partial Class main
         Me.GroupBox9.Size = New System.Drawing.Size(710, 53)
         Me.GroupBox9.TabIndex = 6
         Me.GroupBox9.TabStop = False
+=======
+>>>>>>> origin/master
         '
         'main
         '
